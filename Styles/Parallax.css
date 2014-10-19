@@ -1,3 +1,4 @@
+@import url("basic layout.css");
 /* ============================================================
   PRIMARY STRUCTURE
 ============================================================ */
@@ -49,7 +50,7 @@ section.module.parallax h1 {
 }
 section.module.parallax-1 {
   background-image: url("../Images/first.jpg");
-  margin-top: -120px;
+  margin-top: -107px;
 }
 section.module.parallax-2 {
   background-image: url("../Images/second.jpg");

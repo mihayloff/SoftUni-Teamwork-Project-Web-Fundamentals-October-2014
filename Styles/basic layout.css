@@ -1,50 +1,55 @@
-@import url("Parallax.css");
+/* @import url("Parallax.css"); */
 
 * {
 	margin: 0;
 	padding: 0;
 }
+
 body {
     font-size: 1em;
     line-height: 1.4;
+    font-family: sans-serif;
 }
 header {
-	border: 1px solid #164C00;
-	background: #164C00;
-	height: 9em;
+	border: 1px solid #696969;
+	background: rgba(211, 211, 211, 0.8);;
+	height: 6em;
 	position: fixed;
 	width: 100%;
 }
-
-.logo {
+a:link {
+    text-decoration: none;
+}
+/* .logo {
 	position: absolute;
 	margin-left: 41.7em;
 	margin-top:-1.5em;
 
-}
+} */
 
 header nav ul {
 	box-sizing: border-box;
 	list-style: none;
 	margin-left: 10em;
-	margin-top: 91px;
+	margin-top: 3em;
 }
 
 header nav ul li {
 	float: left;
-	font-size: 30px;
-	border: 2px solid black;
+	font-size: 2em;
+	/* border: 2px solid black;
 	width: 249px;
 	height: 45px;
 	background: black;
-	border-color: #5B7F00;
+	border-color: #696969; */
 	text-align: center;
 	padding-top: 8px;
+	padding-left: 4em;
 }
 
-header nav ul li:nth-child(3) {
+/* header nav ul li:nth-child(3) {
 	margin-left: 250px;
-}
+} */
 
 header a {
 	text-decoration: none;
