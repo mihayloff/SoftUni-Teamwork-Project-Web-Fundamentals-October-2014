@@ -1,0 +1,77 @@
+@import url('basic layout-normal.css');
+
+form {
+	margin-top: 75px;
+	margin-left: 50px;
+}
+
+body > div {
+	color: blue;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+fieldset {
+	width: 475px;
+	height: 450px;
+	background: #007F0E;
+	border: 2px solid yellow;
+	border-radius: 25px;
+	display: inline;
+	vertical-align: top;
+	margin-right: 75px;
+}
+
+input, select {
+	width: 435px;
+	height: 34px;
+	border-radius: 10px;
+	border: 2px solid red;
+}
+
+fieldset:nth-child(1) input,  fieldset:nth-child(1) select {
+	margin-left: 20px;
+}
+
+fieldset div {
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+fieldset:nth-child(1) {
+	margin-left: 378px;
+}
+
+fieldset div:nth-child(1) {
+	color: red;
+	font-weight: bold;
+}
+
+fieldset:nth-child(2) input:nth-child(odd) {
+	margin-left: 20px;
+}
+
+fieldset:nth-child(2) input:nth-child(even) {
+	margin-left: 80px;
+}
+
+form > div {
+	font-size: 35px;
+	color: blue;
+	text-align: center;
+	margin-top: 30px;
+}
+
+form input[type="submit"] {
+	height: 50px;
+	margin-top: 20px;
+	margin-left: 673px;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
