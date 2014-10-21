@@ -1,0 +1,54 @@
+﻿body {
+}
+a{
+    display:block;
+    background-repeat:no-repeat;    
+    position:relative;
+    background-size:contain;
+    text-decoration:none;
+    text-align:center;
+    vertical-align:central;
+    padding-top:100px;
+    font-size:50px;
+    font-weight:900;
+    color:white;  
+    text-shadow:10px 0 10px white;  
+}
+#training{
+    
+    width:510px;
+    height:340px;
+    background-image:url(give_me_the_code.jpg);
+    }
+#team{
+    
+    width:425px;
+    height:391px;
+    background-image:url(three_soldiers.jpg);
+    position:relative;
+    left:510px;
+    top:-441px;    
+}
+#apply{
+    
+    width:425px;
+    height:300px;
+    background-image:url(reporting.jpg);    
+    top:-592px; 
+}
+#main{
+    border: 10px solid green;
+    background-image: url('star.jpg');
+    height: 91px;
+    width: 199px;
+    left: 318px;
+    top: -1702px;
+}
+#mission{
+    width: 510px;
+    height: 470px;
+    background-image: url('attack2.jpg');
+    position: relative;
+    left: 425px;
+    top: -992px;
+}
