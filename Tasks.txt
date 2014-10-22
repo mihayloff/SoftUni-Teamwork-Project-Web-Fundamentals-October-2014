@@ -12,9 +12,15 @@ Apply Form - Preslav
 
 (Idea) Cafeteria - Page with random programming jokes - Preslav
 
-Further tasks:
-
 Footer design - Preslav/Galina ?
+
+Further Tasks:
+
+Responsive Design - ?
+
+Validate Pages - ?
+
+
 
 
 
