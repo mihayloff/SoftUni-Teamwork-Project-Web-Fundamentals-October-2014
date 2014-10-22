@@ -1,0 +1,72 @@
+
+.sky-form * {
+	margin: 0;
+	padding: 0;
+}
+.sky-form header {
+	display: block;
+	padding: 20px 30px;	
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	background: rgba(248,248,248,.9);
+	font-size: 25px;
+	font-weight: 300;
+	color: #232323;
+}
+.sky-form fieldset {
+	display: block;	
+	padding: 25px 30px 5px;
+	border: none;
+	background: rgba(255,255,255,.9);
+}
+
+.sky-form section {
+	margin-bottom: 20px;
+}
+.sky-form footer {
+	display: block;
+	padding: 15px 30px 25px;
+	border-top: 1px solid rgba(0,0,0,.1);
+	background: rgba(248,248,248,.9);
+}
+.sky-form footer:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.sky-form .input,
+.sky-form .select,
+.sky-form .textarea,
+.sky-form .radio,
+.sky-form .checkbox,
+.sky-form .toggle,
+.sky-form .button {
+	position: relative;
+	display: block;
+}
+.sky-form .input input,
+.sky-form .select select,
+.sky-form .textarea textarea {
+	display: block;
+	width: 100%;
+	height: 39px;
+	padding: 8px 10px;
+	outline: none;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 0;
+	background: #fff;
+	font: 15px/19px 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #404040;
+}
+
+.sky-form .button {
+	float: right;
+	height: 39px;
+	margin: 10px 0 0 20px;
+	padding: 0 25px;
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}
+
