@@ -1,11 +1,10 @@
 @font-face{
     font-family:NoneShallPass;
-    src:url('NoneShallPassDemo-KCFonts.ttf');
-   
+    src:url('NoneShallPassDEMO-KCFonts.ttf');
 }
 body{
 	margin: 0;
-	background-image: url("../Images/base.png");
+	background-image: url("../Images/About.png");
 	background-size: 100%;
 }
 #Main{
@@ -51,7 +50,7 @@ li{
 .Danny{
 	float: right;
 	color: white;
-	background-image: url("../Images/Danny.png");
+	background-image: url("../Images/Danny3.png");
 	background-size: 100% 100% ;
 	background-repeat: no-repeat;
 	height: 350px;
@@ -60,10 +59,10 @@ li{
     font-family:NoneShallPass;
     line-height:2em;
 }
-.Danny2{
+.Preslav{
 	float: left;
 	color: white;
-	background-image: url("../Images/Danny.png");
+	background-image: url("../Images/Preslav.png");
 	background-size: 100% 100% ;
 	background-repeat: no-repeat;
 	height: 350px;
@@ -80,7 +79,9 @@ li{
 .sign{
     font-family:sans-serif;
     font-weight:bold;
+
 }
 .info{
+	font-size: 20px;
     color: rgba(243, 85, 85, 1)
 }
