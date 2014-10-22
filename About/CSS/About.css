@@ -1,3 +1,8 @@
+@font-face{
+    font-family:NoneShallPass;
+    src:url('NoneShallPassDemo-KCFonts.ttf');
+   
+}
 body{
 	margin: 0;
 	background-image: url("../Images/base.png");
@@ -52,6 +57,8 @@ li{
 	height: 350px;
 	width: 600px;
 	margin: auto;
+    font-family:NoneShallPass;
+    line-height:2em;
 }
 .Danny2{
 	float: left;
@@ -62,8 +69,18 @@ li{
 	height: 350px;
 	width: 600px;
 	margin: auto;
+    font-family:NoneShallPass;
+    line-height:2em;
 }
 .about{
 	width: 300px;
 	margin-left: 10px;
+}
+
+.sign{
+    font-family:sans-serif;
+    font-weight:bold;
+}
+.info{
+    color: rgba(243, 85, 85, 1)
 }
