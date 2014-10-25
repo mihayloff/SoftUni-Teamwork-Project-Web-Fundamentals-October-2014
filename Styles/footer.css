@@ -1,0 +1,11 @@
+@font-face{
+    font-family:NoneShallPass;
+    src:url('NoneShallPassDEMO-KCFonts.ttf');
+}
+
+footer{
+  background-color: rgb(30,30,30);
+  width: 100%;
+  height: 200px;
+  
+}

@@ -12,6 +12,7 @@ Attributes: Defactoring
 Info: 
 Дълбоко зад тила на врага, Дани успява да прави всеки
 вражески код пределно бавен и неимоверно сложен.
+Deep behind enemy lines, Danny is responsible for making every enemy code slow and complex.
 
 Preslav:
 
@@ -27,6 +28,7 @@ Attributes: Intelligent Debugger
 Info:
 Цивилизован и интелигентен. Преслав е дотолкова разсъдлив, че знае да не
 използва неинициализирани променливи и при него никое изключение не минава.
+Civilized and intelligent, Preslav is so cautious that he knows not to use uninitialized variables and no exception ever gets by him.
 
 Georgi:
 
@@ -44,6 +46,8 @@ Info:
 Същински терминатор. Георги наследява професията CBomber от баща си,
 но добавя още повече огнестрелна мощ. 
 Не съществува програма на земята, която той да не може да унищожи!
+
+A real terminator. Georgi inherits the profession CBomber from his father but adds even more firepower to it. There is no program on earth he cannot destroy! 
 
 
 
@@ -63,6 +67,8 @@ Info:
 а понякога е нетърпимата, правеща каквото си поиска,
 нелогична в действията си красавица.
 
+Sometimes she is responsive, the beloved doing everything right 
+and at times she is unpredictable, doing whatever she likes. Simply an illogical lady.
 
 
 
