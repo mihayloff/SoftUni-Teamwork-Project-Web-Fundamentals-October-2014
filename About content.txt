@@ -1,0 +1,69 @@
+Danny:
+Soldier ID: Random
+
+Date of Birth: Random
+
+Class: Java Spy
+
+Type: Male
+
+Attributes: Defactoring
+
+Info: 
+Дълбоко зад тила на врага, Дани успява да прави всеки
+вражески код пределно бавен и неимоверно сложен.
+
+Preslav:
+
+Soldier ID: Random
+Date of Birth: Random
+
+Class: CSharp Doctor
+
+Type: Male
+
+Attributes: Intelligent Debugger
+
+Info:
+Цивилизован и интелигентен. Преслав е дотолкова разсъдлив, че знае да не
+използва неинициализирани променливи и при него никое изключение не минава.
+
+Georgi:
+
+Soldier ID: Random
+
+Date of Birth: random
+
+Class: CBomber++
+
+Type: Male
+
+Attributes: Ultra Bugger
+
+Info:
+Същински терминатор. Георги наследява професията CBomber от баща си,
+но добавя още повече огнестрелна мощ. 
+Не съществува програма на земята, която той да не може да унищожи!
+
+
+
+Galina:
+
+Soldier ID: Random
+
+Date of Birth: random
+
+Class: JavaScript soldier
+
+Attributes: Nothing is undefined
+
+Info:
+
+Понякога е отзивчивата, вършеща всичко любима,
+а понякога е нетърпимата, правеща каквото си поиска,
+нелогична в действията си красавица.
+
+
+
+
+
