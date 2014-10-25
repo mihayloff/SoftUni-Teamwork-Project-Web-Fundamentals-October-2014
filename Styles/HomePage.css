@@ -1,0 +1,25 @@
+@import url("menu.css");
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("../Images/back.png");
+	background-size: 100%;
+}
+#Chapters>li{
+	margin-top: 15px;
+	margin-bottom: 15px; 
+	border: 2px solid black;
+	list-style-type: none;
+	background-image: url("../Images/home.jpg");
+	background-size: 100%;
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+}
+#Chapters{
+	margin-left: auto;
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+}
