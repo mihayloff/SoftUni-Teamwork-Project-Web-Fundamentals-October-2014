@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("../Images/back.png");
+	background-size: 100%;
+}
+#Main{
+	color: white;
+}
+.nav{
+	background-color: rgba(30,30,30,0.8);
+	margin: 0;
+}
+#Navi{
+	margin: 0;
+	padding: 0;
+}
+#Navi>li{
+	display: inline-block;
+	padding: 20px;
+	color:white;
+
+}
+#Navi>.over:hover{
+	transition: 0.5s;
+	color: #00BFFF;
+}
+.logo{
+	margin: 0;
+	font-size: 20px;
+    margin-right: 40px;
+    font-weight: bold;
+}
+#Chapters>li{
+	margin-top: 15px;
+	margin-bottom: 15px; 
+	border: 2px solid black;
+	list-style-type: none;
+	background-image: url("../Images/home.jpg");
+	background-size: 100%;
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+}
+#Chapters{
+	margin-left: auto;
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+}
