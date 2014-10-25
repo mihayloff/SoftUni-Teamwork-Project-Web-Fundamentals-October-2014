@@ -3,27 +3,38 @@
     src:url('NoneShallPassDEMO-KCFonts.ttf');
 }
 
+header {
+    width: 100%;
+    position: fixed;
+    top: 0%;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover{
+  color: #00BFFF;
+  transition: 0.5s;
+}
+
 #Main{
   color: white;
 }
+
 header nav{
   background-color: rgba(30,30,30,0.8);
     margin: 0;
 }
-#Navi{
-  margin: 0;
-  padding: 0;
-}
+
 header li{
   display: inline-block;
   padding: 20px;
   color:white;
   
 }
-.over:hover{
-  color: #00BFFF;
-  transition: 0.5s;
-}
+
 #Navi > li{
 
 }
