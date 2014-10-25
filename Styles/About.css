@@ -1,4 +1,4 @@
-@import url("menu.css");
+﻿@import url("menu.css");
 
 body{
 	margin: 0;
@@ -17,30 +17,42 @@ body{
 	width: 700px;
 	margin: auto;
 }
-.Danny{
-	float: right;
+.left {
+    margin: auto;
+}
+
+.right {
+    margin: auto;
+}
+
+section {
 	color: white;
-	background-image: url("../Images/Danny3.png");
-	background-size: 100% 100% ;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	height: 350px;
 	width: 600px;
-	margin: auto;
     font-family:NoneShallPass;
     line-height:2em;
 }
-.Preslav{
-	float: left;
-	color: white;
-	background-image: url("../Images/Preslav.png");
-	background-size: 100% 100% ;
-	background-repeat: no-repeat;
-	height: 350px;
-	width: 600px;
-	margin: auto;
-    font-family:NoneShallPass;
-    line-height:2em;
+
+#Preslav {
+    background-image: url('../Images/Preslav.png');
 }
+
+#Georgi {
+    background-image: url('../Images/Preslav.png');
+}
+
+#Galina {
+    background-image: url('../Images/Preslav.png');
+}
+
+#Danny {
+    background-image: url('../Images/Preslav.png');
+}
+
+
+
 .about{
 	width: 300px;
 	margin-left: 10px;
@@ -53,5 +65,15 @@ body{
 }
 .info{
 	font-size: 20px;
+    display: inline-block;
     color: rgba(243, 85, 85, 1)
+}
+
+div.moreInfo {
+    display: inline-block;
+    width: 350px;
+}
+
+div {
+    margin-left: 20px;
 }
