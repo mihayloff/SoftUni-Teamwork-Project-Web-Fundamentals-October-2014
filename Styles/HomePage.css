@@ -1,8 +1,6 @@
 @import url("menu.css");
 
 body {
-	margin: 0;
-	padding: 0;
 	background-image: url("../Images/back.png");
 	background-size: 100%;
 }
