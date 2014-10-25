@@ -1,0 +1,33 @@
+@font-face{
+    font-family:NoneShallPass;
+    src:url('NoneShallPassDEMO-KCFonts.ttf');
+}
+#Main{
+  color: white;
+}
+nav{
+  background-color: rgba(30,30,30,0.8);
+    margin: 0;
+}
+#Navi{
+  margin: 0;
+  padding: 0;
+}
+li{
+  display: inline-block;
+  padding: 20px;
+  color:white;
+    transition: 0.5s;
+}
+.over:hover{
+  color: #00BFFF;
+}
+#Navi > li{
+
+}
+.logo{
+  margin: 0;
+  font-size: 20px;
+    margin-right: 40px;
+    font-weight: bold;
+}
