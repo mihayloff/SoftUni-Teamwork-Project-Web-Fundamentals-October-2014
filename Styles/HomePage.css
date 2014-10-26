@@ -6,37 +6,41 @@
     padding: 0;
 }
 
-body {
-    
-	background-image: url("../Images/back.png");
+body{
     width:100%;
     height:100%;
+    position:relative;
+}
+#fixed-background{
+    z-index: -1;
+    width:100%;
+    height:100%;
+    background-image: url("../Images/ReadyImages/some.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size:cover;
     background-repeat: no-repeat;
+    position:fixed;
     top:0;
     left:0;
 }
 
-
 img {
     border: 2px solid black;
-    background-image: url("../Images/home.jpg");
+    background-image: url("../Images/ReadyImages/Chapter.png");
 	background-size: 100%;
     width: 400px;
     height: 200px;
 }
-
-a {
-    margin-right: 20px;
+section{
+    margin: 50px 200px 30px 200px;
 }
 
-section {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 90px;
+
+#wrapper {
+    min-height:100%;
+    position:relative;
 }
 /*#Chapters{
 	margin-left: auto;
