@@ -1,6 +1,5 @@
 @import url("menu.css");
 @import url("footer.css");
-@import url("normalize.css");
 
 * {
     margin: 0;
@@ -39,8 +38,8 @@ form {
 form h1 {
 	display: block;
 	padding: 20px 30px;	
-	border-bottom: 1px solid rgba(0,0,0,.1);
-	background: rgba(248,248,248,.9);
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	background: rgba(248,248,248,0.9);
 	font-size: 25px;
 	font-weight: 300;
 	color: #232323;
@@ -62,11 +61,15 @@ input, select {
 	outline: none;
 	border-width: 2px;
 	border-style: solid;
-	border-radius: 0;
 	background: #fff;
 	font: 15px/19px 'Open Sans', Helvetica, Arial, sans-serif;
 	color: #404040;
     margin-bottom: 20px;
+}
+
+form input {
+	width: 95%;
+	height: 25px;
 }
 
 form input[type="checkbox"] {
@@ -76,11 +79,11 @@ form input[type="checkbox"] {
 }
 
 form input[type="submit"] {
-    border: 2px solid balck;
     background-color: rgba(30,30,30,0.7);
     color: white;
     font-size:2em;
     height: 50px;
+	margin-left: 10px;
 }
 
 form input[type="submit"]:hover {

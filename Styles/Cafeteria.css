@@ -37,10 +37,10 @@ section{
     width:240px;
     height:340px;
 }
-section div{
+section div {
     padding:20px;
     margin:20px;
-    border-radius:10px;
+    border-radius: 10px;
     background-color:rgba(255,255,255, 0.8);
     font-style:italic;
     position:relative;
@@ -69,12 +69,12 @@ section:nth-child(7){
 section:nth-child(10){
     top:80px;
 }
-main{
+main {
     margin-top: 89px;
     /*margin-top:170px;*/
     display: flex;
-    flex-wrap:wrap;
-    justify-content:space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 

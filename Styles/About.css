@@ -84,7 +84,7 @@ section {
 .info{
 	font-size: 20px;
     display: inline-block;
-    color: rgba(243, 85, 85, 1)
+    color: rgb(243, 85, 85);
 }
 
 div.moreInfo {
