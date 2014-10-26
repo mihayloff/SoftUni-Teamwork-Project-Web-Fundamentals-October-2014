@@ -18,9 +18,13 @@ body{
 /*for fixed background:*/
 #fixed-background{
     width:100%;
-    height:858px;
+    height:100%;
     background-image:url("../Images/ReadyImages/Talking2.png");
-    background-size:100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+    background-repeat: no-repeat;
     position:fixed;
     top:0;
     left:0;
