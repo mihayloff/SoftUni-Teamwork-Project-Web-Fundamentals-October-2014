@@ -33,13 +33,13 @@ header li{
   color:white;
   
 }
-
-#Navi > li{
-
+.first{
+  margin-left: 100px;
+}
+#Navi li{
+   
 }
 .logo{
+  position: absolute;
   margin: 0;
-  font-size: 20px;
-    margin-right: 40px;
-    font-weight: bold;
 }
