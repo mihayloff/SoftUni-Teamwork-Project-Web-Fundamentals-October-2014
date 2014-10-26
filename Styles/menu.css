@@ -13,8 +13,8 @@ nav img {
 	height: 110px;
 }
 
-header a {
-    text-decoration: none;
+header nav ul a {
+    text-decoration: none !important;
     color: white;
 }
 
