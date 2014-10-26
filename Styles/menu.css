@@ -8,6 +8,11 @@ header {
     top: 0%;
 }
 
+nav img {
+	width: 120px;
+	height: 110px;
+}
+
 header a {
     text-decoration: none;
     color: white;
