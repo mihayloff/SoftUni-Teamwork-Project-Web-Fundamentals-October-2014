@@ -4,21 +4,21 @@ Comics Dialog input into Image/ Content generator - Danny/Preslav
 
 Comics Webpage Implementation - Georgi
 
-Homepage - Georgi
+Homepage - Georgi / Done
 
-About Us Page - Galina
+About Us Page - Galina / Done
 
-Apply Form - Preslav
+Apply Form - Preslav / Done
 
-(Idea) Cafeteria - Page with random programming jokes - Preslav
+Cafeteria - Page with random programming jokes - Preslav / Done
 
-Footer design - Preslav/Galina ?
+Footer design - Preslav/Galina 
 
 Further Tasks:
 
 Responsive Design - ?
 
-Validate Pages - ?
+Validate Pages - Preslav / Done
 
 
 
