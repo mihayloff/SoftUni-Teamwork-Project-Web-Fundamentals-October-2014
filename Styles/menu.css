@@ -22,11 +22,11 @@ header nav ul a {
   height: 30px;
   width: 80px;
   border-radius: 2px;
-   text-align: center;
+  text-align: center;
 }
 .asd a {
   line-height: 30px;
-vertical-align: middle;
+  vertical-align: middle;
 
 }
 .asd:hover {

@@ -27,17 +27,18 @@ body{
 }
 
 #wrapper {
-    height: 858px;
+    height:858px;
     position:relative;
     top:0;
     left:0;
+   
 }
-section{
+article{
     position:relative;
     width:240px;
     height:340px;
 }
-section div {
+article div {
     padding:20px;
     margin:20px;
     border-radius: 10px;
@@ -50,24 +51,27 @@ p:first-letter{
     font-size:25px;
 }
 
-section:nth-child(2) div{
+article:nth-child(2) div{
    top:35px;
 }
-section:nth-child(3) div{
+article:nth-child(3) div{
     top:20px;
 }
-section:nth-child(5){
+article:nth-child(5){
     top:50px;
 }
-section:nth-child(6){
+article:nth-child(6){
     top:10px;
 }
-section:nth-child(7){
+article:nth-child(7){
     top:65px;
 }
 
-section:nth-child(10){
+article:nth-child(10){
     top:80px;
+}
+article:nth-child(12){
+    top:-20px;
 }
 main {
     margin-top: 89px;
@@ -76,5 +80,6 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 
 
