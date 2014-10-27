@@ -5,14 +5,15 @@
 
 header {
     width: 100%;
-    top: 0%;
+    top: 0;
+    position:fixed;
+    z-index:1;
 }
 
 nav img {
 	width: 120px;
 	height: 110px;
 }
-
 header nav ul a {
     text-decoration: none !important;
     color: white;
@@ -44,17 +45,17 @@ header a:hover{
 }
 
 header nav{
-  background-color: rgba(30,30,30,0.8);
+    background-color:rgba(30,30,30,0.8);
     margin: 0;
 }
+
 
 header li{
   display: inline-block;
   padding: 20px;
   color:white;
-
-  
 }
+
 .first{
   margin-left: 100px;
 }
