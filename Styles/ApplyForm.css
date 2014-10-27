@@ -93,6 +93,10 @@ form input[type="submit"]:hover {
     transition: 0.5s;
 }
 
+footer {
+	position: fixed;
+}
+
 @media only screen and (max-width:447px) {
 
 	.checkbox {
