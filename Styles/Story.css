@@ -69,7 +69,7 @@ section.module.parallax {
   height: 700px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  /*background-attachment: fixed;*/
+  background-attachment: fixed;
   background-size: cover;
 }
 section.module.parallax h1 {
@@ -198,13 +198,17 @@ section.module.parallax-14 {
   height:1000px;
 }
 
-@media only screen and (max-width: 1100px) {
+@media all and (max-width: 1100px) {
 	body section * {
 		font-size: 25px !important;
 	}
+	
+	.Jaba {
+		text-align: center !important;
+	}
 }
 
-@media only screen and (max-width: 450px) {
+@media all and (max-width: 450px) {
 	body section * {
 		font-size: 20px !important;
 	}
@@ -216,25 +220,4 @@ section.module.parallax-14 {
 	.parallax-10, .parallax13, .parallax-7, .parallax-6, .parallax-5  {
 		background-size: 100% 70% !important;
 	}
-
-@media all and (min-width: 600px) {
-  section.module h2 {
-    font-size: 36px;
-  }
-  section.module p {
-    font-size: 24px;
-  }
-  section.module.parallax h1 {
-    font-size: 48px;
-  }
-  section.module.parallax{
-    /*height:600px;*/
-    
-  }
-}
-@media all and (min-width: 960px) {
-  section.module.parallax h1 {
-    font-size: 72px;
-  }
->>>>>>> 5453c883b6f4dfd6696431f121027aaaab9cca66
 }
