@@ -26,21 +26,23 @@ body{
     left:0;
 }
 
-section img {
-    border: 2px solid black;
-    background-image: url("../Images/ReadyImages/Chapter.png");
-	background-size: 100%;
-
-}
 section{
+    position:relative;
     width: 50%;
     height: 200px;
-    background-color: rgba(255,255,255,0.8);
     margin: 50px auto 30px auto;
-    border-radius: 5px;
-    font-weight: bold;
+
 }
 
+section div {
+    padding:20px;
+    margin:20px;
+    border-radius: 5px;
+    background-color:rgba(255,255,255, 0.8);
+    font-style:italic;
+    position:relative;
+    font-weight: bold;
+}
 
 #wrapper {
     min-height:100%;
