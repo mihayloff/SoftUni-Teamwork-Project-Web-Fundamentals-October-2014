@@ -17,9 +17,25 @@ header nav ul a {
     text-decoration: none !important;
     color: white;
 }
+.asd{
+  background-color: rgba(0,92,52,1);
+  height: 30px;
+  width: 80px;
+  border-radius: 2px;
+   text-align: center;
+}
+.asd a {
+  line-height: 30px;
+vertical-align: middle;
+
+}
+.asd:hover {
+background-color: black;
+  transition: 0.5s;
+}
 
 header a:hover{
-  color: #00BFFF;
+  color: rgba(0,175,100,1);
   transition: 0.5s;
 }
 
@@ -36,6 +52,7 @@ header li{
   display: inline-block;
   padding: 20px;
   color:white;
+
   
 }
 .first{
