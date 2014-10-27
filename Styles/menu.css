@@ -66,3 +66,33 @@ header li{
   position: absolute;
   margin: 0;
 }
+
+@media only screen and (max-width:650px) {
+
+	header li {
+		padding: 0;
+	}
+	
+	header li:first-child {
+		margin-left: 118px;
+	}
+	
+	header li:nth-child(3) {
+		padding-left: 118px;
+	}
+}
+
+@media only screen and (min-width:482px) and (max-width:650px) {
+	header li:nth-child(3) {
+		padding-left: 0;
+	}
+}
+
+@media only screen and (max-width:302px) {
+	header nav div {
+		width: 62px;
+	}
+}
+
+
+

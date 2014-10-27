@@ -27,6 +27,7 @@ body{
 }
 
 section h1 {
+	padding-top: 30px;
 	text-align: center;
 	font-family:NoneShallPass;
 	color: rgb(243, 85, 85);
@@ -61,10 +62,9 @@ section article {
     min-height:100%;
     position:relative;
 }
-/*#Chapters{
-	margin-left: auto;
-    -webkit-column-count: 2;
-       -moz-column-count: 2;
-            column-count: 2;
+
+@media only screen and (max-width:533px) {
+	body footer {
+		display: none;
+	}
 }
-*/
