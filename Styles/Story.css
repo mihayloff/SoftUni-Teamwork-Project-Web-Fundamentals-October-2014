@@ -216,4 +216,25 @@ section.module.parallax-14 {
 	.parallax-10, .parallax13, .parallax-7, .parallax-6, .parallax-5  {
 		background-size: 100% 70% !important;
 	}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 36px;
+  }
+  section.module p {
+    font-size: 24px;
+  }
+  section.module.parallax h1 {
+    font-size: 48px;
+  }
+  section.module.parallax{
+    /*height:600px;*/
+    
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 72px;
+  }
+>>>>>>> 5453c883b6f4dfd6696431f121027aaaab9cca66
 }
