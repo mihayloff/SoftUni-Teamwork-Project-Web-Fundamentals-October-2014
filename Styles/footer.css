@@ -7,18 +7,38 @@ footer{
 	margin: 0;
 	padding: 0;
  	background-color: rgba(30,30,30,0.8);
-    font-size: 1em;
+    font-size: 14px;
     width:100%;
 	color: white;
 	bottom: 0;
     display:flex;
     position:relative;
 }
+
+footer {
+	font-family: "Arial";
+}
+
 footer p {
     display:inline-block;
     width:150px;
     text-align:center;
     padding:10px;
     position:relative;
+}
+
+footer a {
+	text-decoration:none;
+	color: green;
+}
+
+footer p:nth-child(3) {
+	left: 90%;
+	position: absolute;
+}
+
+footer img {
+	width: 88px;
+	height: 31px;
 }
 

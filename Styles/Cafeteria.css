@@ -47,7 +47,7 @@ article div {
     position:relative;
 }
 
-p:first-letter{
+article p:first-letter{
     font-size:25px;
 }
 

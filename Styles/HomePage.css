@@ -26,6 +26,19 @@ body{
     left:0;
 }
 
+section h1 {
+	text-align: center;
+	font-family:NoneShallPass;
+	color: rgb(243, 85, 85);
+	
+}
+
+section span {
+	display: inline;
+	color: rgb(243, 85, 85);
+	font-family: "Arial";
+}
+
 section{
     position:relative;
     width: 50%;
@@ -34,7 +47,7 @@ section{
 
 }
 
-section div {
+section article {
     padding:20px;
     margin:20px;
     border-radius: 5px;

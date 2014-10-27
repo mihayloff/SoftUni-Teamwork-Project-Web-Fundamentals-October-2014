@@ -17,19 +17,19 @@ header nav ul a {
     text-decoration: none !important;
     color: white;
 }
-.asd{
+header nav div {
   background-color: rgba(0,92,52,1);
   height: 30px;
   width: 80px;
   border-radius: 2px;
   text-align: center;
 }
-.asd a {
+header nav div a {
   line-height: 30px;
   vertical-align: middle;
 
 }
-.asd:hover {
+header nav div:hover {
 background-color: black;
   transition: 0.5s;
 }
