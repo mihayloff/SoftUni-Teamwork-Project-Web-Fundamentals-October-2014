@@ -66,6 +66,10 @@ section article {
     position:relative;
 }
 
+footer {
+	position: fixed;
+}
+
 @media only screen and (max-width:533px) {
 	body footer {
 		display: none;
